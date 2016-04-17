@@ -57,4 +57,4 @@ names(final_data_mean_std) <- gsub('Freq$',"Frequency", names(final_data_mean_st
 ############ 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject
 
 averages_data <- ddply(final_data_mean_std, c("Subject","Activity"), numcolwise(mean))
-write.table(averages_data, file = "averages_data.txt", row.name=FALSE)
+write.table(averages_data, file = "output_tidy_avg_data.txt", row.name=FALSE)
