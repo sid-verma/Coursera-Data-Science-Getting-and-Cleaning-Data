@@ -1,12 +1,10 @@
-#Code Book
-This code book summarizes the resulting data fields in `output_tidy_avg_data.txt`.
-
 #Introduction to the files
 
 * `CodeBook.md` - You are __here.__ This is an R Markdown Document which serves to explain what is the purpose of each file in the repo and how they work.
 * `README` - The README file gives details about this Course Project
 * `run_analysis.R` - This is an R Script which performs certain functions that are explanined below.
-* `output_tidy_avg_data.txt` - This is the output of the final task in the `run_analysis.R` file. This is in the form of a `tidy dataset.`
+* `output_tidy_avg_data.txt` - This is the output of the final task in the `run_analysis.R` file. This is in the form of a tidy dataset.
+
 #Identifiers
 
 **subject** - The ID of the test subject
@@ -15,14 +13,14 @@ This code book summarizes the resulting data fields in `output_tidy_avg_data.txt
 
 #Activity Labels
 
-* WALKING (value 1): subject was walking during the test
+* WALKING (value `1`): subject was walking during the test
 
-* WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
+* WALKING_UPSTAIRS (value `2`): subject was walking up a staircase during the test
 
-* WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
+* WALKING_DOWNSTAIRS (value `3`): subject was walking down a staircase during the test
 
-* SITTING (value 4): subject was sitting during the test
+* SITTING (value `4`): subject was sitting during the test
 
-* STANDING (value 5): subject was standing during the test
+* STANDING (value `5`): subject was standing during the test
 
-* LAYING (value 6): subject was laying down during the test
+* LAYING (value `6`): subject was laying down during the test
