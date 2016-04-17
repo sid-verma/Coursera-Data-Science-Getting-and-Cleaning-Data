@@ -2,15 +2,11 @@
 This CodeBook explains the working of the R Script, `run_analysis.R` in detail-
 The R script, `run_analysis.R`, does the following:
 
-1. Load the activity and feature info.
-2. Loads both the training and test datasets, keeping only those columns which
-   reflect a mean or standard deviation.
-3. Loads the activity and subject data for each dataset, and merges those
-   columns with the dataset
-4. Merges the two datasets
-5. 
-6. Creates a tidy dataset that consists of the average (mean) value of each
-   variable for each subject and activity pair.
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 #Identifiers
 
