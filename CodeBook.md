@@ -10,7 +10,7 @@
 * **subject** - The ID of the test subject
 * **activity** - The type of activity performed when the corresponding measurements were taken
 
-#Variables uses in `run_analysis.R`
+#Variables uses in *run_analysis.R*
 * `train_x`, `train_y` and `train_sub` - Tables containing downloaded train data.
 * `test_x`, `test_y` and `test_sub` - Tables containing downloaded test data.
 * `features` and `activity_labels` - Tables containing downloaded *features* and *activity* labels data.
