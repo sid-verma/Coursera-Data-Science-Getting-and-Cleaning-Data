@@ -1,9 +1,16 @@
-#Introduction to the files
+#CodeBook
+This CodeBook explains the working of the R Script, `run_analysis.R` in detail-
+The R script, `run_analysis.R`, does the following:
 
-* `CodeBook.md` - You are __here.__ This is an R Markdown Document which serves to explain what is the purpose of each file in the repo and how they work.
-* `README` - The README file gives details about this Course Project
-* `run_analysis.R` - This is an R Script which performs certain functions that are explanined below.
-* `output_tidy_avg_data.txt` - This is the output of the final task in the `run_analysis.R` file. This is in the form of a tidy dataset.
+1. Load the activity and feature info.
+2. Loads both the training and test datasets, keeping only those columns which
+   reflect a mean or standard deviation.
+3. Loads the activity and subject data for each dataset, and merges those
+   columns with the dataset
+4. Merges the two datasets
+5. 
+6. Creates a tidy dataset that consists of the average (mean) value of each
+   variable for each subject and activity pair.
 
 #Identifiers
 
@@ -18,7 +25,7 @@
 * `final_data` - Final combined table of train and test tables.
 * `final_labels` - Character vector containing corrected labels for `features` table.
 * `final_data_mean_std` - Modified final table to extract the *mean* and *std dev* columns.
-* `averages_data` - Final output table containing a data set with the average of each variable for each *activity* and each *subject*.
+* `averages_data` - Output table containing data set with the average of each variable for each *activity* and each *subject*.
 
 #Activity Labels
 
