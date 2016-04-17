@@ -1,5 +1,5 @@
 #Code Book
-This code book summarizes the resulting data fields in 'output_tidy_avg_data.txt'.
+This code book summarizes the resulting data fields in `output_tidy_avg_data.txt`.
 
 #Identifiers
 
